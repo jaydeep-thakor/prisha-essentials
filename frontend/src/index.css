@@ -28,7 +28,7 @@
 
 body {
   font-family: "Outfit", sans-serif;
-  background-color: #F8F6F0;
+  background-color: #FBF8F2;
   color: #241B20;
   margin: 0;
   position: relative;
@@ -43,6 +43,41 @@ textarea {
 
 .font-cg {
   font-family: "Cormorant Garamond", serif;
-  font-style: italic;
 }
 
+.wrapper {
+  width: 100%;
+  max-width: 1120px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+.section {
+  padding-block: 4.5rem;
+}
+
+.bg-primary {
+  background-color: #C15B2E;
+}
+
+.text-primary {
+  color: #C15B2E;
+}
+
+.bg-secondary {
+  background-color: #2B1B33;
+}
+
+.hover-bg-secondary {
+  background-color: #3a2544;
+}
+
+.text-secondary {
+  color: #2B1B33;
+}
+
+@media (min-width:768px) {
+  .section {
+    padding-block: 6rem;
+  }
+}
