@@ -52,28 +52,28 @@ textarea {
   padding-inline: 1.25rem;
 }
 
-.section {
-  padding-block: 4.5rem;
+.bg-primary {
+  background-color: #882221;
 }
 
-.bg-primary {
-  background-color: #C15B2E;
+.hover-bg-primary {
+  background-color: #6E1B1A;
 }
 
 .text-primary {
-  color: #C15B2E;
+  color: #882221;
 }
 
-.bg-secondary {
-  background-color: #2B1B33;
+.hover-text-primary {
+  color: #6E1B1A;
 }
 
-.hover-bg-secondary {
-  background-color: #3a2544;
+.section-bg {
+  background: #F5F0E6;
 }
 
-.text-secondary {
-  color: #2B1B33;
+.section {
+  padding-block: 4.5rem;
 }
 
 @media (min-width:768px) {

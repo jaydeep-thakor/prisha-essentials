@@ -16,7 +16,7 @@ const Header = () => {
                     <Link to="/" className='hover:text-primary transition-colors'>Wholesale</Link>
                 </nav>
 
-                <button className='text-[11px] tracking-[0.08em] uppercase text-white bg-secondary px-4 py-2 rounded-full hover:hover-bg-secondary transition-colors whitespace-nowrap'>Bulk Order</button>
+                <button className='text-[11px] tracking-[0.08em] uppercase text-white bg-primary px-4 py-2 rounded-full hover:hover-bg-primary transition-colors whitespace-nowrap'>Bulk Order</button>
 
             </div>
 
