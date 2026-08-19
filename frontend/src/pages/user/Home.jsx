@@ -3,6 +3,7 @@ import Hero from '../../components/user/home/Hero'
 import Wholesale from '../../components/user/home/Wholesale'
 import ShopByFragrance from '../../components/user/home/ShopByFragrance'
 import MostLoved from '../../components/user/home/MostLoved'
+import Stockist from '../../components/user/home/Stockist'
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Hero />
             <ShopByFragrance />
             <MostLoved />
+            <Stockist />
             <Wholesale />
         </>
     )
