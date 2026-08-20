@@ -11,11 +11,11 @@ const ShopByFragrance = () => {
 
             <div className="wrapper">
 
-                <Title title="Fragrance" subTitle="Shop by fragrance."/>
-  
+                <Title title="Fragrance" subTitle="Shop by fragrance." />
+
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 md:h-140'>
 
-                    <Link to="/" className='group relative text-left overflow-hidden rounded-sm md:row-span-2 h-72 md:h-full cursor-pointer'>
+                    <Link to="/fragrance/sandalwood" className='group relative text-left overflow-hidden rounded-sm md:row-span-2 h-72 md:h-full cursor-pointer'>
                         <span className="absolute top-5 left-5 text-[10px] tracking-[0.2em] uppercase text-white/65">01</span>
                         <div className='absolute inset-0 bg-linear-to-t from-black/50 via-black/0 to-transparent z-10'></div>
                         <img className='absolute inset-0 z-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105' src={sandalwood} alt="" />
@@ -24,7 +24,7 @@ const ShopByFragrance = () => {
                         </div>
                     </Link>
 
-                    <Link to="/" className='group relative text-left overflow-hidden rounded-sm h-56 md:h-auto cursor-pointer'>
+                    <Link to="/fragrance/jasmine" className='group relative text-left overflow-hidden rounded-sm h-56 md:h-auto cursor-pointer'>
                         <span className="absolute top-5 left-5 text-[10px] tracking-[0.2em] uppercase text-white/65">02</span>
                         <div className='absolute inset-0 bg-linear-to-t from-black/60 via-black/0 to-transparent z-10'></div>
                         <img className='absolute inset-0 z-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105' src={jasmine} alt="" />
@@ -33,7 +33,7 @@ const ShopByFragrance = () => {
                         </div>
                     </Link>
 
-                    <Link to="/" className='group relative text-left overflow-hidden rounded-sm h-56 md:h-auto cursor-pointer'>
+                    <Link to="/fragrance/rose" className='group relative text-left overflow-hidden rounded-sm h-56 md:h-auto cursor-pointer'>
                         <span className="absolute top-5 left-5 text-[10px] tracking-[0.2em] uppercase text-white/65">03</span>
                         <div className='absolute inset-0 bg-linear-to-t from-black/60 via-black/0 to-transparent z-10'></div>
                         <img className='absolute inset-0 z-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105' src={rose} alt="" />

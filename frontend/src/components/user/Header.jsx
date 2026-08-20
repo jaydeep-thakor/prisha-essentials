@@ -1,13 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from "../../assets/images/logo.png"
 
 const Header = () => {
     return (
-        <header className='bg-[#FBF8F2]/95 backdrop-blur border-b border-black/10 sticky top-0 z-20'>
+        <header className='bg-[#FBF8F2]/95 backdrop-blur border-b border-black/5 sticky top-0 z-20'>
 
             <div className='wrapper flex items-center justify-between py-3.5'>
 
-                <Link to="/">Logo</Link>
+                <Link to="/">
+                <img className='h-10' src={logo} alt="" />
+                </Link>
 
                 <nav className='hidden md:flex items-center gap-7 text-[11px] tracking-[0.15em] uppercase text-black/55'>
                     <Link to="/" className='hover:text-primary transition-colors'>Fragrances</Link>
