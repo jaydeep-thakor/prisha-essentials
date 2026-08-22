@@ -11,12 +11,10 @@ const Header = () => {
 
             <div className='wrapper flex items-center justify-between py-3.5 relative'>
 
-                {/* Logo */}
                 <Link to="/" onClick={() => setMenuOpen(false)}>
                     <img className='h-10' src={logo} alt="Logo" />
                 </Link>
 
-                {/* Desktop Navigation */}
                 <nav className='hidden md:flex items-center gap-7 text-[11px] tracking-[0.15em] uppercase text-black/55'>
                     <Link to="/" className='hover:text-primary transition-colors'>
                         Fragrances
@@ -35,48 +33,40 @@ const Header = () => {
                     </Link>
                 </nav>
 
-                {/* Right Side */}
                 <div className='flex items-center gap-3'>
 
-                    {/* Bulk Order - Always Outside Menu */}
                     <button className='text-[11px] tracking-[0.08em] uppercase text-white bg-primary px-4 py-2 rounded-full hover:bg-primary/90 transition-colors whitespace-nowrap'>
                         Bulk Order
                     </button>
 
-                    {/* Mobile Menu Button */}
                     <button
                         onClick={() => setMenuOpen(!menuOpen)}
                         className='md:hidden flex flex-col gap-1.5 p-2'
                         aria-label='Toggle menu'
                     >
                         <span
-                            className={`w-6 h-0.5 bg-black transition-all duration-300 ${
-                                menuOpen ? 'rotate-45 translate-y-2' : ''
-                            }`}
+                            className={`w-6 h-0.5 bg-black transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-2' : ''
+                                }`}
                         />
 
                         <span
-                            className={`w-6 h-0.5 bg-black transition-all duration-300 ${
-                                menuOpen ? 'opacity-0' : ''
-                            }`}
+                            className={`w-6 h-0.5 bg-black transition-all duration-300 ${menuOpen ? 'opacity-0' : ''
+                                }`}
                         />
 
                         <span
-                            className={`w-6 h-0.5 bg-black transition-all duration-300 ${
-                                menuOpen ? '-rotate-45 -translate-y-2' : ''
-                            }`}
+                            className={`w-6 h-0.5 bg-black transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-2' : ''
+                                }`}
                         />
                     </button>
 
                 </div>
 
-                {/* Mobile Menu - Absolute */}
                 <div
-                    className={`md:hidden absolute left-0 right-0 top-full bg-[#FBF8F2] border-t border-black/5 shadow-lg transition-all duration-300 ${
-                        menuOpen
+                    className={`md:hidden absolute left-0 right-0 top-full bg-[#FBF8F2] border-t border-black/5 shadow-lg transition-all duration-300 ${menuOpen
                             ? 'opacity-100 visible translate-y-0'
                             : 'opacity-0 invisible -translate-y-2'
-                    }`}
+                        }`}
                 >
                     <nav className='wrapper flex flex-col py-4'>
 

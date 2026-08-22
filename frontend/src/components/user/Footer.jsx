@@ -18,19 +18,16 @@ const Footer = () => {
                         </p>
                     </div>
                     <div>
-                        <h4 className='text-[12px] tracking-[0.15em] uppercase text-black/40 mb-4'>Explore</h4>
+                        <h4 className='text-[12px] tracking-[0.15em] uppercase text-black/40 mb-4'>Legal</h4>
                         <ul className='space-y-2.5 text-[14px] text-black/70'>
                             <li>
-                                <Link to="/" class="hover:text-black">Fragrances</Link>
+                                <Link to="/privacy-policy" className="hover:text-black">Privacy Policy</Link>
                             </li>
                             <li>
-                                <Link to="/" class="hover:text-black">Best Sellers</Link>
+                                <Link to="/disclaimer" className="hover:text-black">Disclaimer</Link>
                             </li>
                             <li>
-                                <Link to="/" class="hover:text-black">Where to Buy</Link>
-                            </li>
-                            <li>
-                                <Link to="/" class="hover:text-black">Wholesale</Link>
+                                <Link to="/terms-of-use" className="hover:text-black">Terms of Use</Link>
                             </li>
                         </ul>
                     </div>
